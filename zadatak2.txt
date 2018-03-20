@@ -1,0 +1,17 @@
+loop1:
+R
+S
+G loop1
+
+loop2:
+R
+G loop2
+
+
+Bitna pretpostavka jeste da oba robota izvrsavaju isti program
+i onda je bitno da krenu na levo ili na desno ( u mom primeru na desno ) i da izvrsavaju instrukcije pomeri se,
+proveri da li je ispod tebe mrlja ako jeste preskoci sledecu instrukciju ako nije,
+sledeca instrukcija je vrati se na pocetak.
+A kad jedan naidje na mrlju,
+preskace sledecu instrukciju i ulazi u novu petlju gde se krece duplo brze i stize ovog prvog
+koji i dalje ide na istu stranu i stalno proverava da li ima mrlje ispod.
